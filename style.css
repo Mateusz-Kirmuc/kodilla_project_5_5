@@ -1,0 +1,7 @@
+[class*="example"]{
+  min-height:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-image: url(http://via.placeholder.com/400x400);
+}
