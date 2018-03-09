@@ -9,19 +9,19 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <a href="#" class="navbar-brand">CompanyName</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-    </div>
-  </nav>
   <div class="container">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">CompanyName</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
     <div id="myCarousel" data-ride="carousel" class="carousel slide">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -48,51 +48,45 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#hobby">Hobby</a></li>
-    <li><a data-toggle="tab" href="#menu1">Zaintersowania</a></li>
-    <li><a data-toggle="tab" href="#menu2">Podróże</a></li>
-  </ul>
-  <div class="tab-content">
-    <div id="hobby" class="tab-pane fade in active">
-      <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#hobby">Hobby</a></li>
+      <li><a data-toggle="tab" href="#menu1">Zaintersowania</a></li>
+      <li><a data-toggle="tab" href="#menu2">Podróże</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="hobby" class="tab-pane fade in active">
         <h1>Hobby</h1>
         <p>Moim hobby jest używanie bootstrapowych komponentów w codziennej
-           pracy. Kocham ten dreszczyk emocji kiedy dodaję ostatnią klasę i z
-            zapartym tchem odświeżam przeglądarkę. Często zdarza mi się wtedy
-            krzyczeć i tańczyć z radości.
-          </p>
+          pracy. Kocham ten dreszczyk emocji kiedy dodaję ostatnią klasę i z
+          zapartym tchem odświeżam przeglądarkę. Często zdarza mi się wtedy
+          krzyczeć i tańczyć z radości.
+        </p>
       </div>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <div class="container">
+      <div id="menu1" class="tab-pane fade">
         <h1>Zaintersowania</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <div class="container">
+      <div id="menu2" class="tab-pane fade">
         <h1>Podróże</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">
+      Launch demo modal
+    </button>
+    <div id="modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Owner of this site is Matthew</h4>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">
-    Launch demo modal
-  </button>
-  <div id="modal" class="modal fade" role="dialog">
-	<div class="modal-dialog">
-		<div class="modal-content">
-      <div class="modal-header">
-      	<h4>Owner of this site is Matthew</h4>
-      </div>
-      <div class="modal-body">
-      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi, hic iure, laboriosam in sapiente obcaecati distinctio fuga. Nam in facilis facere quaerat repudiandae porro, dolore explicabo nisi atque nesciunt.</p>
-      </div>
-     </div>
-	</div>
-</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
